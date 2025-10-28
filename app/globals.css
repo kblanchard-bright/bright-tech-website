@@ -2,25 +2,72 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
+  --bright-orange: #F28123;
+  --bright-black: #000000;
+  --bright-grey: #F5F5F5;
+  --bright-white: #ffffff;
 }
 
 @theme inline {
+  /* Colors */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-bright-orange: var(--bright-orange);
+  --color-bright-black: var(--bright-black);
+  --color-bright-grey: var(--bright-grey);
+  --color-bright-white: var(--bright-white);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Fonts */
+  --font-sans: var(--font-lato);
+  --font-heading: var(--font-roboto);
+  --font-display: var(--font-koho);
+
+  /* Spacing for elegant layouts */
+  --spacing-section: 6rem;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-lato), -apple-system, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Headings use Roboto */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 500;
+}
+
+/* Display text uses KoHo for impact */
+.font-display {
+  font-family: var(--font-koho), sans-serif;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
