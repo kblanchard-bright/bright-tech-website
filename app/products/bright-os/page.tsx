@@ -16,7 +16,7 @@ export default function BrightOS() {
         subtitle="BrightOS"
         title="The Future of Hotel Operations"
         description="AI-powered platform unifying guest communications, operations management, and intelligent automation"
-        gradient="from-bright-black via-gray-900/50 to-bright-black"
+        gradient="from-gray-900 to-bright-black"
       />
 
       {/* Overview Section */}

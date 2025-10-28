@@ -76,7 +76,8 @@ export default function Header() {
 
               {/* Dropdown Menu */}
               {isProductsOpen && (
-                <div className="absolute top-full left-0 mt-2 w-56 bg-bright-black border border-bright-orange/20 rounded-lg shadow-xl overflow-hidden">
+                <div className="absolute top-full left-0 pt-2 w-56">
+                  <div className="bg-bright-black border border-bright-orange/20 rounded-lg shadow-xl overflow-hidden">
                   <Link
                     href="/products/bright-booking"
                     className="block px-4 py-3 text-white hover:bg-bright-orange/10 hover:text-bright-orange transition-colors duration-200"
@@ -109,6 +110,7 @@ export default function Header() {
                       Revenue optimization
                     </div>
                   </Link>
+                  </div>
                 </div>
               )}
             </div>

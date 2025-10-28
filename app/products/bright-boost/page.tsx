@@ -16,7 +16,7 @@ export default function BrightBoost() {
         subtitle="Bright Boost - Coming Soon"
         title="AI-Powered Revenue Optimization"
         description="The future of hotel revenue management is almost here"
-        gradient="from-bright-black via-gray-900/50 to-bright-black"
+        gradient="from-gray-900 to-bright-black"
       />
 
       {/* Coming Soon Section */}

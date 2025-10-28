@@ -19,9 +19,9 @@
   --color-bright-white: var(--bright-white);
 
   /* Fonts */
-  --font-sans: var(--font-lato);
-  --font-heading: var(--font-roboto);
-  --font-display: var(--font-koho);
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-montserrat);
+  --font-display: var(--font-montserrat);
 
   /* Spacing for elegant layouts */
   --spacing-section: 6rem;
@@ -30,8 +30,8 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-lato), -apple-system, sans-serif;
-  font-weight: 300;
+  font-family: var(--font-inter), -apple-system, sans-serif;
+  font-weight: 400;
   line-height: 1.6;
 }
 
@@ -40,15 +40,16 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Headings use Roboto */
+/* Headings use Montserrat */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-roboto), sans-serif;
-  font-weight: 500;
+  font-family: var(--font-montserrat), -apple-system, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
-/* Display text uses KoHo for impact */
+/* Display text uses Montserrat for impact */
 .font-display {
-  font-family: var(--font-koho), sans-serif;
+  font-family: var(--font-montserrat), -apple-system, sans-serif;
 }
 
 /* Animations */

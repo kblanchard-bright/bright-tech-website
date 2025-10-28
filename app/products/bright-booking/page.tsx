@@ -16,7 +16,7 @@ export default function BrightBooking() {
         subtitle="Bright Booking"
         title="The Future of Direct Bookings"
         description="Intelligent booking technology that converts visitors into guests while reducing your dependence on OTAs"
-        gradient="from-bright-black via-gray-900/50 to-bright-black"
+        gradient="from-gray-900 to-bright-black"
       />
 
       {/* Overview Section */}
