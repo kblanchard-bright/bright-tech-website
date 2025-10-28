@@ -76,7 +76,7 @@ export default function Header() {
 
               {/* Dropdown Menu */}
               {isProductsOpen && (
-                <div className="absolute top-full left-0 pt-2 w-56">
+                <div className="absolute top-full left-0 pt-2 w-64">
                   <div className="bg-bright-black border border-bright-orange/20 rounded-lg shadow-xl overflow-hidden">
                   <Link
                     href="/products/bright-booking"

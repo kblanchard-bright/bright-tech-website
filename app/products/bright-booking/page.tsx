@@ -22,16 +22,13 @@ export default function BrightBooking() {
       {/* Overview Section */}
       <Section background="white">
         <div className="max-w-5xl mx-auto">
-          <div className="mb-16">
-            <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-6">
-              Direct Bookings, Redefined
-            </h2>
-            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+          <div className="mb-12 text-center">
+            <p className="text-xl text-gray-800 leading-relaxed mb-6 max-w-3xl mx-auto">
               Bright Booking is where cutting-edge technology meets conversion optimization. Every element
               is designed to reduce friction, build trust, and turn browsers into bookers—maximizing your
               direct booking revenue while elevating the guest experience.
             </p>
-            <p className="text-xl text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Integrated seamlessly with BrightOS, it creates an end-to-end hospitality platform that works
               in perfect harmony.
             </p>

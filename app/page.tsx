@@ -66,21 +66,12 @@ export default function Home() {
       {/* Pricing Innovation Section */}
       <Section background="white">
         <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-6">
-              Revolutionary Pricing
-            </h2>
-            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
-              The industry's first fully integrated booking and operations platform with transparent, performance-driven pricing
-            </p>
-          </div>
-
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-br from-bright-orange/10 to-bright-orange/5 rounded-2xl p-8 border-2 border-bright-orange/30">
-              <div className="flex items-center justify-center w-16 h-16 bg-bright-orange rounded-full mb-6 mx-auto">
-                <span className="text-3xl font-display font-bold text-white">0</span>
+            <div className="bg-gradient-to-br from-bright-orange/10 to-bright-orange/5 rounded-2xl p-8 md:p-12 border-2 border-bright-orange/30">
+              <div className="flex items-center justify-center w-20 h-20 bg-bright-orange rounded-full mb-6 mx-auto">
+                <span className="text-4xl font-display font-bold text-white">0</span>
               </div>
-              <h3 className="font-heading text-2xl font-semibold text-bright-black mb-4 text-center">
+              <h3 className="font-heading text-3xl md:text-4xl font-semibold text-bright-black mb-4 text-center">
                 BrightOS is Free
               </h3>
               <p className="text-gray-800 leading-relaxed text-center mb-6">
@@ -93,11 +84,11 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-bright-grey to-white rounded-2xl p-8 border border-bright-orange/20">
-              <div className="flex items-center justify-center w-16 h-16 bg-bright-black rounded-full mb-6 mx-auto">
-                <span className="text-3xl font-display font-bold text-bright-orange">%</span>
+            <div className="bg-gradient-to-br from-bright-grey to-white rounded-2xl p-8 md:p-12 border border-bright-orange/20">
+              <div className="flex items-center justify-center w-20 h-20 bg-bright-black rounded-full mb-6 mx-auto">
+                <span className="text-4xl font-display font-bold text-bright-orange">%</span>
               </div>
-              <h3 className="font-heading text-2xl font-semibold text-bright-black mb-4 text-center">
+              <h3 className="font-heading text-3xl md:text-4xl font-semibold text-bright-black mb-4 text-center">
                 Performance-Based Booking
               </h3>
               <p className="text-gray-800 leading-relaxed text-center mb-6">
