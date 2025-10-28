@@ -145,6 +145,70 @@ export default function BrightBooking() {
         </div>
       </Section>
 
+      {/* Google Metasearch Integration */}
+      <Section background="white">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-6">
+              Dominate Google Search
+            </h2>
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+              Your hotel will show up and rank highly on Google, capturing travelers at the moment they're searching
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="bg-gradient-to-br from-bright-grey to-white rounded-2xl p-8 border border-bright-orange/20">
+              <div className="w-16 h-16 bg-bright-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-bright-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+              <h3 className="font-heading text-xl font-semibold text-bright-black mb-3 text-center">
+                Premium Visibility
+              </h3>
+              <p className="text-gray-600 text-center">
+                Appear in Google Hotel Search results with real-time rates and availability
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-bright-grey to-white rounded-2xl p-8 border border-bright-orange/20">
+              <div className="w-16 h-16 bg-bright-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-bright-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                </svg>
+              </div>
+              <h3 className="font-heading text-xl font-semibold text-bright-black mb-3 text-center">
+                Higher Rankings
+              </h3>
+              <p className="text-gray-600 text-center">
+                Optimized integration ensures your property ranks competitively against OTAs
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-bright-grey to-white rounded-2xl p-8 border border-bright-orange/20">
+              <div className="w-16 h-16 bg-bright-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-bright-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="font-heading text-xl font-semibold text-bright-black mb-3 text-center">
+                Zero Commission
+              </h3>
+              <p className="text-gray-600 text-center">
+                Direct bookings from Google with no OTA commissions—keep 100% of your revenue
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-br from-bright-orange/10 to-bright-orange/5 rounded-2xl p-8 border-2 border-bright-orange/30 text-center">
+            <p className="text-lg text-gray-700 font-medium">
+              Intercept travelers before they reach OTA sites—appear in Google search results with competitive rates and instant booking
+            </p>
+          </div>
+        </div>
+      </Section>
+
       {/* PMS Integrations */}
       <Section background="white">
         <div className="max-w-5xl mx-auto">
@@ -164,28 +228,36 @@ export default function BrightBooking() {
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800">Opera PMS</p>
+                <p className="font-semibold text-gray-800 mb-2">Opera PMS</p>
+                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
               </div>
               <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800">Mews</p>
+                <p className="font-semibold text-gray-800 mb-2">Mews</p>
+                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
+              </div>
+              <div className="text-center p-4 bg-white rounded-lg border-2 border-bright-orange">
+                <p className="font-semibold text-gray-800 mb-2">Cloudbeds</p>
+                <span className="inline-block text-xs bg-bright-orange text-white px-2 py-1 rounded font-semibold">Available Today</span>
               </div>
               <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800">Cloudbeds</p>
+                <p className="font-semibold text-gray-800 mb-2">Guesty</p>
+                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
               </div>
               <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800">Guesty</p>
+                <p className="font-semibold text-gray-800 mb-2">Hostfully</p>
+                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
               </div>
               <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800">Hostfully</p>
+                <p className="font-semibold text-gray-800 mb-2">RMS Cloud</p>
+                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
               </div>
               <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800">RMS Cloud</p>
+                <p className="font-semibold text-gray-800 mb-2">Stayntouch</p>
+                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
               </div>
               <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800">Stayntouch</p>
-              </div>
-              <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800">And More</p>
+                <p className="font-semibold text-gray-800 mb-2">And More</p>
+                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
               </div>
             </div>
           </div>

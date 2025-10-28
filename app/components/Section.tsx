@@ -15,7 +15,7 @@ export default function Section({
     white: 'bg-white',
     grey: 'bg-bright-grey',
     black: 'bg-bright-black',
-    gradient: 'bg-gradient-to-br from-gray-900 via-bright-black to-gray-900',
+    gradient: 'bg-gradient-to-br from-bright-black via-gray-900 to-bright-black',
   };
 
   return (
