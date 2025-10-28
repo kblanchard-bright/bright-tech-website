@@ -16,12 +16,12 @@ export default function Home() {
       />
 
       {/* Products Section */}
-      <Section background="gradient" id="products">
+      <Section background="white" id="products">
         <div className="text-center mb-16">
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-bright-orange mb-6">
             Technology That Transforms
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 max-w-3xl mx-auto">
             An integrated ecosystem of intelligent tools that redefine what's possible in hospitality
           </p>
         </div>
@@ -64,38 +64,40 @@ export default function Home() {
       </Section>
 
       {/* Pricing Innovation Section */}
-      <Section background="white">
+      <Section background="gradient">
         <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-6">
+              Revolutionary Pricing
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              The industry's first fully integrated booking and operations platform with transparent, performance-driven pricing
+            </p>
+          </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-br from-bright-orange/10 to-bright-orange/5 rounded-2xl p-8 md:p-12 border-2 border-bright-orange/30">
-              <div className="flex items-center justify-center w-20 h-20 bg-bright-orange rounded-full mb-6 mx-auto">
-                <span className="text-4xl font-display font-bold text-white">0</span>
-              </div>
-              <h3 className="font-heading text-3xl md:text-4xl font-semibold text-bright-black mb-4 text-center">
+            <div className="bg-gray-900/50 rounded-2xl p-8 md:p-12 border-2 border-bright-orange/30">
+              <h3 className="font-heading text-3xl md:text-4xl font-semibold text-white mb-4 text-center">
                 BrightOS is Free
               </h3>
-              <p className="text-gray-800 leading-relaxed text-center mb-6">
+              <p className="text-gray-300 leading-relaxed text-center mb-6">
                 Subscribe to Bright Booking and get the complete BrightOS operations platform at no additional cost
               </p>
-              <div className="bg-white rounded-xl p-4 border border-bright-orange/20">
-                <p className="text-sm text-gray-600 text-center">
+              <div className="bg-bright-black/50 rounded-xl p-4 border border-bright-orange/20">
+                <p className="text-sm text-gray-400 text-center">
                   Complete hotel management • AI automation • Guest communications • Operations control
                 </p>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-bright-grey to-white rounded-2xl p-8 md:p-12 border border-bright-orange/20">
-              <div className="flex items-center justify-center w-20 h-20 bg-bright-black rounded-full mb-6 mx-auto">
-                <span className="text-4xl font-display font-bold text-bright-orange">%</span>
-              </div>
-              <h3 className="font-heading text-3xl md:text-4xl font-semibold text-bright-black mb-4 text-center">
+            <div className="bg-gray-900/50 rounded-2xl p-8 md:p-12 border border-bright-orange/20">
+              <h3 className="font-heading text-3xl md:text-4xl font-semibold text-white mb-4 text-center">
                 Performance-Based Booking
               </h3>
-              <p className="text-gray-800 leading-relaxed text-center mb-6">
+              <p className="text-gray-300 leading-relaxed text-center mb-6">
                 Pay only a percentage on confirmed bookings through Bright Booking—no setup fees, no monthly minimums
               </p>
               <div className="bg-bright-orange/10 rounded-xl p-4 border border-bright-orange/20">
-                <p className="text-sm text-gray-600 text-center">
+                <p className="text-sm text-gray-400 text-center">
                   Commission-free direct bookings • Transparent pricing • No hidden costs
                 </p>
               </div>

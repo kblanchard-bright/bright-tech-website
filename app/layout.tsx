@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bright Technology - The Apple of Hospitality",
+  title: "Bright Technology",
   description: "Powering modern hospitality with Bright Booking, BrightOS, and innovative hotel technology solutions.",
 };
 
