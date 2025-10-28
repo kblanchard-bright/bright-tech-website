@@ -10,26 +10,26 @@ export default function Home() {
 
       {/* Hero Section */}
       <Hero
-        subtitle="Powering The Future of Hospitality"
+        subtitle="The Future of Hospitality Technology"
         title="Bright Technology"
-        description="We create elegant, innovative solutions that transform how hotels operate and delight their guests."
+        description="Where artificial intelligence meets exceptional hospitality. We're building the operating system for next-generation hotels."
       />
 
       {/* Products Section */}
       <Section background="gradient" id="products">
         <div className="text-center mb-16">
-          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-white mb-6">
-            Our <span className="text-bright-orange">Products</span>
+          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-bright-orange mb-6">
+            Technology That Transforms
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Innovative technology solutions designed for modern hospitality
+            An integrated ecosystem of intelligent tools that redefine what's possible in hospitality
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProductCard
             title="Bright Booking"
-            description="A revolutionary booking system that streamlines reservations and enhances guest experience with intelligent automation and seamless integration."
+            description="Conversion-engineered booking platform that eliminates OTA dependency. Maximize direct revenue with intelligent automation that turns visitors into guests."
             href="/products/bright-booking"
             icon={
               <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -40,7 +40,7 @@ export default function Home() {
 
           <ProductCard
             title="BrightOS"
-            description="The complete operating system for hotels. Manage operations, staff, and guest experiences from one powerful, intuitive platform built for efficiency."
+            description="AI-powered hotel operating system unifying guest communications, operations, and automation. Free with Bright Booking—the complete platform for modern hotels."
             href="/products/bright-os"
             icon={
               <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -51,7 +51,7 @@ export default function Home() {
 
           <ProductCard
             title="Bright Boost"
-            description="AI-powered revenue optimization that maximizes your profitability through dynamic pricing, demand forecasting, and intelligent upselling."
+            description="Intelligent revenue optimization leveraging AI for dynamic pricing, demand prediction, and automated upselling. The future of hotel revenue management."
             href="/products/bright-boost"
             comingSoon={true}
             icon={
@@ -67,11 +67,11 @@ export default function Home() {
       <Section background="white">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-black mb-6">
-              Partnered with Excellence
+            <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-6">
+              Innovation Lab
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Our journey began with{' '}
+              At{' '}
               <a
                 href="https://thebrighthotel.com/"
                 target="_blank"
@@ -80,10 +80,13 @@ export default function Home() {
               >
                 The Bright Hotel
               </a>
-              , where we pioneered technology solutions that redefine hospitality standards.
+              , our technology isn't just deployed—it's battle-tested daily. Every feature is refined
+              in the crucible of real guest interactions and operational demands.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              This partnership drives our innovation, ensuring every product we create is tested in real-world hospitality environments and built to exceed industry expectations.
+              This living laboratory approach ensures we're not building for hypothetical hotels.
+              We're engineering solutions proven to work in the real world, creating technology that
+              evolves with the industry's future.
             </p>
           </div>
           <div className="bg-gradient-to-br from-bright-orange/10 to-bright-orange/5 rounded-2xl p-12 border border-bright-orange/20">
@@ -92,7 +95,7 @@ export default function Home() {
                 The Bright Hotel
               </div>
               <p className="text-gray-600 text-lg">
-                Where technology meets hospitality
+                Where tomorrow's hospitality happens today
               </p>
             </div>
           </div>
@@ -102,17 +105,17 @@ export default function Home() {
       {/* CTA Section */}
       <Section background="gradient">
         <div className="text-center max-w-4xl mx-auto">
-          <h2 className="font-display text-4xl md:text-5xl font-semibold text-white mb-6">
-            Ready to Transform Your Hotel?
+          <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-6">
+            The Future Starts Now
           </h2>
           <p className="text-xl text-gray-300 mb-10">
-            Join us in shaping the future of hospitality technology
+            See next-generation hospitality technology in action
           </p>
           <a
             href="/hotels"
             className="inline-flex items-center space-x-2 bg-bright-orange hover:bg-bright-orange/90 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-bright-orange/50"
           >
-            <span>Explore Our Hotels</span>
+            <span>Experience Tomorrow's Hotel</span>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

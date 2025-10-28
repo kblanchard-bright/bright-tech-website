@@ -16,7 +16,7 @@ export default function BrightBoost() {
         subtitle="Bright Boost - Coming Soon"
         title="AI-Powered Revenue Optimization"
         description="The future of hotel revenue management is almost here"
-        gradient="from-bright-black via-purple-900/20 to-bright-black"
+        gradient="from-bright-black via-gray-900/50 to-bright-black"
       />
 
       {/* Coming Soon Section */}
@@ -26,7 +26,7 @@ export default function BrightBoost() {
             <div className="inline-block bg-bright-orange/10 text-bright-orange font-semibold px-6 py-3 rounded-full mb-8 text-lg">
               Coming Soon
             </div>
-            <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-black mb-6">
+            <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-6">
               Maximize Every Revenue Opportunity
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
@@ -85,12 +85,12 @@ export default function BrightBoost() {
       {/* What to Expect */}
       <Section background="gradient">
         <div className="max-w-5xl mx-auto">
-          <h2 className="font-display text-4xl md:text-5xl font-semibold text-white mb-12 text-center">
+          <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-12 text-center">
             What to Expect
           </h2>
 
           <div className="space-y-6">
-            <div className="p-8 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+            <div className="p-8 bg-gray-900/50 rounded-2xl border border-bright-orange/20">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 w-8 h-8 bg-bright-orange rounded-full flex items-center justify-center text-white font-semibold">
                   1
@@ -108,7 +108,7 @@ export default function BrightBoost() {
               </div>
             </div>
 
-            <div className="p-8 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+            <div className="p-8 bg-gray-900/50 rounded-2xl border border-bright-orange/20">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 w-8 h-8 bg-bright-orange rounded-full flex items-center justify-center text-white font-semibold">
                   2
@@ -125,7 +125,7 @@ export default function BrightBoost() {
               </div>
             </div>
 
-            <div className="p-8 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+            <div className="p-8 bg-gray-900/50 rounded-2xl border border-bright-orange/20">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 w-8 h-8 bg-bright-orange rounded-full flex items-center justify-center text-white font-semibold">
                   3
@@ -148,7 +148,7 @@ export default function BrightBoost() {
       {/* Stay Tuned Section */}
       <Section background="white">
         <div className="text-center max-w-4xl mx-auto">
-          <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-black mb-6">
+          <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-6">
             Be the First to Know
           </h2>
           <p className="text-xl text-gray-700 mb-10">
