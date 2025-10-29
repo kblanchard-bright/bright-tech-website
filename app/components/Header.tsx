@@ -114,6 +114,14 @@ export default function Header() {
                 </div>
               )}
             </div>
+
+            {/* Add Your Hotel CTA */}
+            <Link
+              href="/signup"
+              className="bg-bright-orange hover:bg-bright-orange/90 text-white font-semibold px-6 py-2.5 rounded-full transition-all duration-300 transform hover:scale-105"
+            >
+              Add Your Hotel
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -194,6 +202,13 @@ export default function Header() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Bright Boost <span className="text-xs text-bright-orange">(Coming Soon)</span>
+            </Link>
+            <Link
+              href="/signup"
+              className="block mx-4 mt-4 px-6 py-3 bg-bright-orange hover:bg-bright-orange/90 text-white text-center font-semibold rounded-full transition-colors duration-200"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Add Your Hotel
             </Link>
           </div>
         )}

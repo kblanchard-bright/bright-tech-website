@@ -22,7 +22,10 @@ export default function BrightBooking() {
       {/* Overview Section */}
       <Section background="white">
         <div className="max-w-5xl mx-auto">
-          <div className="mb-12 text-center">
+          <div className="text-center mb-12">
+            <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-6">
+              Direct Bookings, Redefined
+            </h2>
             <p className="text-xl text-gray-800 leading-relaxed mb-6 max-w-3xl mx-auto">
               Bright Booking is where cutting-edge technology meets conversion optimization. Every element
               is designed to reduce friction, build trust, and turn browsers into bookers—maximizing your
@@ -207,68 +210,68 @@ export default function BrightBooking() {
       </Section>
 
       {/* PMS Integrations */}
-      <Section background="white">
+      <Section background="gradient">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-6">
               Works With Your PMS
             </h2>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Bright Booking integrates seamlessly with leading Property Management Systems,
               creating a unified reservation ecosystem
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-bright-grey to-white rounded-2xl p-8 md:p-12 border border-bright-orange/20 mb-12">
-            <h3 className="font-heading text-2xl font-semibold text-bright-black mb-8 text-center">
+          <div className="bg-gray-900/50 rounded-2xl p-8 md:p-12 border border-bright-orange/20 mb-12">
+            <h3 className="font-heading text-2xl font-semibold text-white mb-8 text-center">
               Compatible PMS Platforms
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800 mb-2">Opera PMS</p>
-                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
+              <div className="text-center p-4 bg-bright-black rounded-lg border border-gray-700">
+                <p className="font-semibold text-gray-300 mb-2">Opera PMS</p>
+                <span className="inline-block text-xs bg-gray-700 text-gray-400 px-2 py-1 rounded">Coming Soon</span>
               </div>
-              <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800 mb-2">Mews</p>
-                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
+              <div className="text-center p-4 bg-bright-black rounded-lg border border-gray-700">
+                <p className="font-semibold text-gray-300 mb-2">Mews</p>
+                <span className="inline-block text-xs bg-gray-700 text-gray-400 px-2 py-1 rounded">Coming Soon</span>
               </div>
-              <div className="text-center p-4 bg-white rounded-lg border-2 border-bright-orange">
-                <p className="font-semibold text-gray-800 mb-2">Cloudbeds</p>
+              <div className="text-center p-4 bg-bright-black rounded-lg border-2 border-bright-orange">
+                <p className="font-semibold text-white mb-2">Cloudbeds</p>
                 <span className="inline-block text-xs bg-bright-orange text-white px-2 py-1 rounded font-semibold">Available Today</span>
               </div>
-              <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800 mb-2">Guesty</p>
-                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
+              <div className="text-center p-4 bg-bright-black rounded-lg border border-gray-700">
+                <p className="font-semibold text-gray-300 mb-2">Guesty</p>
+                <span className="inline-block text-xs bg-gray-700 text-gray-400 px-2 py-1 rounded">Coming Soon</span>
               </div>
-              <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800 mb-2">Hostfully</p>
-                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
+              <div className="text-center p-4 bg-bright-black rounded-lg border border-gray-700">
+                <p className="font-semibold text-gray-300 mb-2">Hostfully</p>
+                <span className="inline-block text-xs bg-gray-700 text-gray-400 px-2 py-1 rounded">Coming Soon</span>
               </div>
-              <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800 mb-2">RMS Cloud</p>
-                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
+              <div className="text-center p-4 bg-bright-black rounded-lg border border-gray-700">
+                <p className="font-semibold text-gray-300 mb-2">RMS Cloud</p>
+                <span className="inline-block text-xs bg-gray-700 text-gray-400 px-2 py-1 rounded">Coming Soon</span>
               </div>
-              <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800 mb-2">Stayntouch</p>
-                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
+              <div className="text-center p-4 bg-bright-black rounded-lg border border-gray-700">
+                <p className="font-semibold text-gray-300 mb-2">Stayntouch</p>
+                <span className="inline-block text-xs bg-gray-700 text-gray-400 px-2 py-1 rounded">Coming Soon</span>
               </div>
-              <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
-                <p className="font-semibold text-gray-800 mb-2">And More</p>
-                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
+              <div className="text-center p-4 bg-bright-black rounded-lg border border-gray-700">
+                <p className="font-semibold text-gray-300 mb-2">And More</p>
+                <span className="inline-block text-xs bg-gray-700 text-gray-400 px-2 py-1 rounded">Coming Soon</span>
               </div>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-bright-orange/10 to-bright-orange/5 rounded-2xl p-8 border-2 border-bright-orange/30">
+          <div className="bg-gradient-to-br from-bright-orange/20 to-bright-orange/10 rounded-2xl p-8 border-2 border-bright-orange/30">
             <div className="flex items-center justify-center space-x-3 mb-4">
               <svg className="w-8 h-8 text-bright-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
               </svg>
-              <h3 className="font-heading text-2xl font-semibold text-bright-orange">
+              <h3 className="font-heading text-2xl font-semibold text-white">
                 Get BrightOS Free
               </h3>
             </div>
-            <p className="text-lg text-gray-700 text-center leading-relaxed">
+            <p className="text-lg text-gray-200 text-center leading-relaxed">
               Subscribe to Bright Booking and unlock BrightOS at no additional cost—combining booking
               power with complete operational management in one integrated platform.
             </p>

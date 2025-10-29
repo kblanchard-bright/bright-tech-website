@@ -31,18 +31,11 @@ export default function BrightOS() {
               operational workflows, and AI-powered automation. It's not just software—it's the
               intelligent backbone of next-generation hospitality.
             </p>
-            <p className="text-xl text-gray-700 leading-relaxed">
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
               Experience operational excellence where technology anticipates needs, automates repetitive
               tasks, and elevates every guest interaction.
             </p>
-          </div>
-
-          {/* Tagline Callout */}
-          <div className="bg-gradient-to-br from-bright-orange to-bright-orange/90 rounded-2xl p-8 mb-16 text-center shadow-lg">
-            <h3 className="font-display text-3xl md:text-4xl font-semibold text-white mb-3">
-              A Hotel That Runs Itself
-            </h3>
-            <p className="text-xl text-white/90">
+            <p className="text-lg text-gray-600 italic">
               You focus on what matters, we focus on what's routine
             </p>
           </div>
