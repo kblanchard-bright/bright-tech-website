@@ -3,7 +3,7 @@ import Hero from '../../components/Hero';
 import Section from '../../components/Section';
 
 export const metadata = {
-  title: 'Bright Booking - Bright Technology',
+  title: 'Bright Booking - BrightOS',
   description: 'Revolutionary booking system that streamlines reservations and enhances guest experience.',
 };
 
@@ -32,7 +32,7 @@ export default function BrightBooking() {
               direct booking revenue while elevating the guest experience.
             </p>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Integrated seamlessly with BrightOS, it creates an end-to-end hospitality platform that works
+              Built on the BrightOS platform, it creates an end-to-end hospitality solution that works
               in perfect harmony.
             </p>
           </div>
@@ -227,9 +227,9 @@ export default function BrightBooking() {
               Compatible PMS Platforms
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <div className="text-center p-4 bg-bright-black rounded-lg border border-gray-700">
-                <p className="font-semibold text-gray-300 mb-2">Opera PMS</p>
-                <span className="inline-block text-xs bg-gray-700 text-gray-400 px-2 py-1 rounded">Coming Soon</span>
+              <div className="text-center p-4 bg-bright-black rounded-lg border border-blue-500">
+                <p className="font-semibold text-white mb-2">Opera PMS</p>
+                <span className="inline-block text-xs bg-blue-600 text-white px-2 py-1 rounded font-semibold">Beta Access</span>
               </div>
               <div className="text-center p-4 bg-bright-black rounded-lg border border-gray-700">
                 <p className="font-semibold text-gray-300 mb-2">Mews</p>
@@ -268,12 +268,12 @@ export default function BrightBooking() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
               </svg>
               <h3 className="font-heading text-2xl font-semibold text-white">
-                Get BrightOS Free
+                Get Bright Ops Free
               </h3>
             </div>
             <p className="text-lg text-gray-200 text-center leading-relaxed">
-              Subscribe to Bright Booking and unlock BrightOS at no additional cost—combining booking
-              power with complete operational management in one integrated platform.
+              Subscribe to Bright Booking and get Bright Ops at no additional cost—complete guest communications
+              and operations management powered by the BrightOS platform.
             </p>
           </div>
         </div>

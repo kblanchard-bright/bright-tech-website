@@ -2,7 +2,7 @@ import Header from '../components/Header';
 import Section from '../components/Section';
 
 export const metadata = {
-  title: 'Our Hotels - Bright Technology',
+  title: 'Our Hotels - BrightOS',
   description: 'Discover The Bright Hotel\'s portfolio of technology-powered properties across the United States.',
 };
 
@@ -156,7 +156,7 @@ export default function Hotels() {
           <div className="bg-gradient-to-br from-bright-orange/10 to-bright-orange/5 rounded-2xl p-8 md:p-12 border-2 border-bright-orange/30">
             <div className="text-center mb-8">
               <h3 className="font-heading text-3xl font-semibold text-bright-black mb-4">
-                Powered by Bright Technology
+                Powered by BrightOS
               </h3>
               <p className="text-lg text-gray-700">
                 Every property runs on our complete technology stack
@@ -178,7 +178,7 @@ export default function Hotels() {
                 </svg>
                 <div>
                   <span className="font-medium text-bright-black block">BrightOS</span>
-                  <span className="text-gray-600 text-sm">Operations automated</span>
+                  <span className="text-gray-600 text-sm">AI-powered platform foundation</span>
                 </div>
               </div>
               <div className="flex items-start space-x-3">

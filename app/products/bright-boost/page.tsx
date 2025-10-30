@@ -3,7 +3,7 @@ import Hero from '../../components/Hero';
 import Section from '../../components/Section';
 
 export const metadata = {
-  title: 'Bright Boost - Coming Soon - Bright Technology',
+  title: 'Bright Boost - Coming Soon - BrightOS',
   description: 'AI-powered revenue optimization coming soon to maximize your hotel profitability.',
 };
 
@@ -135,7 +135,7 @@ export default function BrightBoost() {
                     Seamless Integration
                   </h3>
                   <p className="text-gray-300 leading-relaxed">
-                    Works perfectly with Bright Booking and BrightOS, creating a unified revenue
+                    Works perfectly with Bright Booking and Bright Ops, all powered by the BrightOS platform—creating a unified revenue
                     optimization ecosystem that requires no manual intervention.
                   </p>
                 </div>

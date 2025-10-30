@@ -30,7 +30,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <span className="text-2xl font-display font-semibold text-white">
-              Bright<span className="text-bright-orange">Technology</span>
+              Bright<span className="text-bright-orange">OS</span>
             </span>
           </Link>
 
@@ -88,12 +88,12 @@ export default function Header() {
                     </div>
                   </Link>
                   <Link
-                    href="/products/bright-os"
+                    href="/products/bright-ops"
                     className="block px-4 py-3 text-white hover:bg-bright-orange/10 hover:text-bright-orange transition-colors duration-200"
                   >
-                    <div className="font-medium">BrightOS</div>
+                    <div className="font-medium">Bright Ops</div>
                     <div className="text-sm text-gray-400">
-                      Operating system for hotels
+                      Communications & operations
                     </div>
                   </Link>
                   <Link
@@ -190,11 +190,11 @@ export default function Header() {
               Bright Booking
             </Link>
             <Link
-              href="/products/bright-os"
+              href="/products/bright-ops"
               className="block px-8 py-2 text-white hover:bg-bright-orange/10 hover:text-bright-orange rounded transition-colors duration-200"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              BrightOS
+              Bright Ops
             </Link>
             <Link
               href="/products/bright-boost"

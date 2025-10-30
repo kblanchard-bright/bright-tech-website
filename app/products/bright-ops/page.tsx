@@ -3,19 +3,19 @@ import Hero from '../../components/Hero';
 import Section from '../../components/Section';
 
 export const metadata = {
-  title: 'BrightOS - Bright Technology',
-  description: 'AI-powered hotel operating system managing guest communications, operations, and automation. Free with Bright Booking.',
+  title: 'Bright Ops - BrightOS',
+  description: 'Communications and operations management for modern hotels. Built on the BrightOS platform. Free with Bright Booking.',
 };
 
-export default function BrightOS() {
+export default function BrightOps() {
   return (
     <>
       <Header />
 
       <Hero
-        subtitle="BrightOS"
-        title="The Future of Hotel Operations"
-        description="AI-powered platform unifying guest communications, operations management, and intelligent automation"
+        subtitle="Bright Ops"
+        title="Communications & Operations Excellence"
+        description="Streamline guest communications and operational workflows. Built on the BrightOS platform. Free with Bright Booking."
         gradient="from-gray-900 to-bright-black"
       />
 
@@ -24,23 +24,23 @@ export default function BrightOS() {
         <div className="max-w-5xl mx-auto">
           <div className="mb-16">
             <h2 className="font-display text-4xl md:text-5xl font-semibold text-bright-orange mb-6">
-              Three Pillars. One Platform.
+              Operational Excellence, Simplified
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              BrightOS reimagines hotel management by seamlessly integrating guest communications,
-              operational workflows, and AI-powered automation. It's not just software—it's the
-              intelligent backbone of next-generation hospitality.
+              Bright Ops combines guest communications and operations management into one powerful tool.
+              Built on the AI-powered BrightOS platform, it streamlines everything from pre-arrival messaging
+              to housekeeping coordination—all in one place.
             </p>
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              Experience operational excellence where technology anticipates needs, automates repetitive
-              tasks, and elevates every guest interaction.
+              And the best part? It's included free with your Bright Booking subscription, giving you
+              complete operational control at no additional cost.
             </p>
             <p className="text-lg text-gray-600 italic">
-              You focus on what matters, we focus on what's routine
+              You focus on what matters, we handle what's routine
             </p>
           </div>
 
-          {/* Three Pillars */}
+          {/* Key Features */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="p-8 bg-gradient-to-br from-bright-orange/10 to-bright-orange/5 rounded-2xl border-2 border-bright-orange/30">
               <div className="w-12 h-12 bg-bright-orange rounded-lg flex items-center justify-center mb-4">
@@ -97,7 +97,7 @@ export default function BrightOS() {
             AI That Works For You
           </h2>
           <p className="text-xl text-gray-300 text-center mb-12 max-w-3xl mx-auto">
-            BrightOS learns your property's unique patterns and continuously evolves to serve you better
+            Powered by the BrightOS platform, Bright Ops learns your property's unique patterns and continuously evolves to serve you better
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
@@ -201,7 +201,7 @@ export default function BrightOS() {
               Seamless PMS Integration
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              BrightOS connects with your existing Property Management System to create a unified
+              Built on the BrightOS platform, Bright Ops connects with your existing Property Management System to create a unified
               technology ecosystem
             </p>
           </div>
@@ -211,9 +211,9 @@ export default function BrightOS() {
               Supported PMS Partners
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
+              <div className="text-center p-4 bg-white rounded-lg border-2 border-blue-500">
                 <p className="font-semibold text-gray-800 mb-2">Opera PMS</p>
-                <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">Coming Soon</span>
+                <span className="inline-block text-xs bg-blue-600 text-white px-2 py-1 rounded font-semibold">Beta Access</span>
               </div>
               <div className="text-center p-4 bg-white rounded-lg border border-gray-200">
                 <p className="font-semibold text-gray-800 mb-2">Mews</p>
@@ -257,7 +257,7 @@ export default function BrightOS() {
                 Real-Time Sync
               </h4>
               <p className="text-gray-600">
-                Instant data synchronization keeps BrightOS and your PMS perfectly aligned
+                Instant data synchronization keeps Bright Ops and your PMS perfectly aligned
               </p>
             </div>
             <div className="text-center">
@@ -302,7 +302,7 @@ export default function BrightOS() {
                 FREE with Bright Booking
               </div>
               <p className="text-xl text-gray-300 leading-relaxed">
-                Get BrightOS at no additional cost when you subscribe to Bright Booking. It's our way
+                Get Bright Ops at no additional cost when you subscribe to Bright Booking. It's our way
                 of ensuring you have the complete technology stack to transform your property.
               </p>
             </div>
@@ -331,7 +331,7 @@ export default function BrightOS() {
             Step Into Tomorrow
           </h2>
           <p className="text-xl text-gray-700 mb-10">
-            Witness BrightOS transforming hospitality in real-time at The Bright Hotel
+            Witness Bright Ops transforming hospitality in real-time at The Bright Hotel
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

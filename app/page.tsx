@@ -10,9 +10,9 @@ export default function Home() {
 
       {/* Hero Section */}
       <Hero
-        subtitle="The Future of Hospitality Technology"
-        title="Bright Technology"
-        description="Where artificial intelligence meets exceptional hospitality. We're building the operating system for next-generation hotels."
+        subtitle="The Bright Operating System"
+        title="BrightOS"
+        description="The AI-powered operating system for modern hotels. Integrated booking, communications, operations, and revenue management—all in one intelligent platform."
       />
 
       {/* Products Section */}
@@ -39,9 +39,9 @@ export default function Home() {
           />
 
           <ProductCard
-            title="BrightOS"
-            description="AI-powered hotel operating system unifying guest communications, operations, and automation. Free with Bright Booking—the complete platform for modern hotels."
-            href="/products/bright-os"
+            title="Bright Ops"
+            description="Guest communications and operations management built on the BrightOS platform. Streamline your workflows and elevate guest experiences. Free with Bright Booking."
+            href="/products/bright-ops"
             icon={
               <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -77,14 +77,14 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="bg-gray-900/50 rounded-2xl p-8 md:p-12 border-2 border-bright-orange/30">
               <h3 className="font-heading text-3xl md:text-4xl font-semibold text-white mb-4 text-center">
-                BrightOS is Free
+                Bright Ops is Free
               </h3>
               <p className="text-gray-300 leading-relaxed text-center mb-6">
-                Subscribe to Bright Booking and get the complete BrightOS operations platform at no additional cost
+                Subscribe to Bright Booking and get Bright Ops included at no additional cost—complete communications and operations management powered by the BrightOS platform
               </p>
               <div className="bg-bright-black/50 rounded-xl p-4 border border-bright-orange/20">
                 <p className="text-sm text-gray-400 text-center">
-                  Complete hotel management • AI automation • Guest communications • Operations control
+                  Guest communications • Operations management • AI automation • Built on BrightOS
                 </p>
               </div>
             </div>

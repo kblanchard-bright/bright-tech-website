@@ -15,8 +15,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bright Technology",
-  description: "Powering modern hospitality with Bright Booking, BrightOS, and innovative hotel technology solutions.",
+  title: "BrightOS - The Bright Operating System",
+  description: "Powering modern hospitality with Bright Booking, Bright Ops, and innovative hotel technology solutions—all built on the BrightOS platform.",
 };
 
 export default function RootLayout({

@@ -5,25 +5,25 @@ import { useRouter } from 'next/navigation';
 import Header from '../components/Header';
 import Link from 'next/link';
 
-export default function SignupPage() {
+export default function LoginPage() {
   const router = useRouter();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleGoogleSignIn = () => {
     console.log('Google sign in clicked');
-    router.push('/onboarding');
+    router.push('/dashboard');
   };
 
   const handleAppleSignIn = () => {
     console.log('Apple sign in clicked');
-    router.push('/onboarding');
+    router.push('/dashboard');
   };
 
-  const handleEmailSignup = (e: React.FormEvent) => {
+  const handleEmailLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Email signup:', { email, password });
-    router.push('/onboarding');
+    console.log('Email login:', { email, password });
+    router.push('/dashboard');
   };
 
   return (
@@ -35,17 +35,17 @@ export default function SignupPage() {
           {/* Header */}
           <div className="text-center mb-8">
             <h1 className="font-display text-4xl md:text-5xl font-semibold text-white mb-4">
-              Add Your Hotel
+              Welcome Back
             </h1>
             <p className="text-lg text-gray-300">
-              Join the future of hospitality technology with BrightOS
+              Sign in to manage your hotel
             </p>
           </div>
 
           {/* Auth Card */}
           <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-10">
             {/* Email/Password Form */}
-            <form onSubmit={handleEmailSignup} className="space-y-4 mb-6">
+            <form onSubmit={handleEmailLogin} className="space-y-4 mb-6">
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
                   Email address
@@ -76,11 +76,21 @@ export default function SignupPage() {
                 />
               </div>
 
+              <div className="flex items-center justify-between text-sm">
+                <label className="flex items-center">
+                  <input type="checkbox" className="mr-2 rounded" />
+                  <span className="text-gray-600">Remember me</span>
+                </label>
+                <Link href="#" className="text-bright-orange hover:underline font-medium">
+                  Forgot password?
+                </Link>
+              </div>
+
               <button
                 type="submit"
                 className="w-full bg-bright-orange hover:bg-bright-orange/90 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-[1.02] shadow-lg hover:shadow-bright-orange/50"
               >
-                Create Account
+                Sign In
               </button>
             </form>
 
@@ -134,16 +144,16 @@ export default function SignupPage() {
 
             {/* Footer */}
             <div className="mt-6 text-center text-sm text-gray-600">
-              Already have an account?{' '}
-              <Link href="/login" className="text-bright-orange hover:underline font-medium">
-                Sign in
+              Don't have an account?{' '}
+              <Link href="/signup" className="text-bright-orange hover:underline font-medium">
+                Sign up
               </Link>
             </div>
           </div>
 
           {/* Terms */}
           <p className="text-center text-sm text-gray-400 mt-6">
-            By signing up, you agree to our{' '}
+            By signing in, you agree to our{' '}
             <Link href="#" className="text-bright-orange hover:underline">
               Terms of Service
             </Link>{' '}
