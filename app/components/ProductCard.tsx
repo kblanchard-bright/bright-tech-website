@@ -18,10 +18,10 @@ export default function ProductCard({
   return (
     <Link href={href}>
       <div
-        className={`group relative h-full bg-gradient-to-br from-gray-900 to-bright-black border rounded-2xl p-8 transition-all duration-300 hover:scale-105 ${
+        className={`group relative h-full bg-white border rounded-2xl p-8 transition-all duration-300 hover:scale-105 shadow-sm ${
           comingSoon
-            ? 'border-gray-700 opacity-75'
-            : 'border-bright-orange/30 hover:border-bright-orange hover:shadow-2xl hover:shadow-bright-orange/20'
+            ? 'border-gray-200 opacity-75'
+            : 'border-gray-200 hover:border-bright-orange hover:shadow-lg'
         }`}
       >
         {/* Coming Soon Badge */}
@@ -39,11 +39,11 @@ export default function ProductCard({
         )}
 
         {/* Content */}
-        <h3 className="font-heading text-2xl md:text-3xl font-semibold text-white mb-4 group-hover:text-bright-orange transition-colors duration-300">
+        <h3 className="font-heading text-2xl md:text-3xl font-semibold text-gray-900 mb-4 group-hover:text-bright-orange transition-colors duration-300">
           {title}
         </h3>
 
-        <p className="text-gray-300 leading-relaxed mb-6">{description}</p>
+        <p className="text-gray-600 leading-relaxed mb-6">{description}</p>
 
         {/* Arrow indicator */}
         <div className="flex items-center text-bright-orange font-medium group-hover:translate-x-2 transition-transform duration-300">

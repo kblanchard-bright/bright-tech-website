@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, Inter } from "next/font/google";
+import FooterWrapper from "./components/FooterWrapper";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -15,8 +16,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "BrightOS - The Bright Operating System",
-  description: "Powering modern hospitality with Bright Booking, Bright Ops, and innovative hotel technology solutions—all built on the BrightOS platform.",
+  title: "BrightOS - AI Agents for Hotels",
+  description: "AI agents that run your hotel. Policy-driven, PMS-connected, built by hoteliers. Guest Agent handles communication. Ops Agent tracks operations. Running at 5 properties.",
 };
 
 export default function RootLayout({
@@ -30,6 +31,7 @@ export default function RootLayout({
         className={`${montserrat.variable} ${inter.variable} antialiased`}
       >
         {children}
+        <FooterWrapper />
       </body>
     </html>
   );

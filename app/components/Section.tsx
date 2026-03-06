@@ -14,14 +14,16 @@ export default function Section({
   const bgClasses = {
     white: 'bg-white',
     grey: 'bg-bright-grey',
-    black: 'bg-bright-black',
-    gradient: 'bg-gradient-to-br from-bright-black via-gray-900 to-bright-black',
+    black: 'bg-bright-grey',
+    gradient: 'bg-bright-grey',
   };
+
+  const useDotGrid = background === 'gradient' || background === 'grey';
 
   return (
     <section
       id={id}
-      className={`py-20 md:py-32 ${bgClasses[background]} ${className}`}
+      className={`py-20 md:py-32 ${bgClasses[background]} ${useDotGrid ? 'dot-grid' : ''} ${className}`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">{children}</div>
     </section>

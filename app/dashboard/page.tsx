@@ -115,16 +115,16 @@ export default function DashboardPage() {
                   <p className="text-xs text-gray-600">This month · Bright Booking</p>
                 </div>
 
-                {/* Tasks Automated - Bright Ops (Locked) */}
-                <div className="bg-white rounded-lg p-6 border border-gray-200 opacity-60">
+                {/* Guest Agent - BrightOS */}
+                <div className="bg-white rounded-lg p-6 border border-gray-200">
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-sm font-medium text-gray-500">Tasks Automated</span>
+                    <span className="text-sm font-medium text-gray-500">Guest Agent Messages</span>
                     <svg className="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                     </svg>
                   </div>
                   <p className="text-3xl font-display font-bold text-gray-400 mb-2">--</p>
-                  <p className="text-xs text-gray-500">Activate Bright Ops to unlock</p>
+                  <p className="text-xs text-gray-500">Guest Agent · BrightOS</p>
                 </div>
               </div>
             </div>
@@ -132,10 +132,10 @@ export default function DashboardPage() {
             {/* Products Section */}
             <div className="mb-6">
               <h2 className="font-display text-2xl font-semibold text-bright-black mb-2">
-                Your Products
+                Your Agents & Extensions
               </h2>
               <p className="text-gray-600">
-                Manage your BrightOS products and services
+                Manage your BrightOS agents and extensions
               </p>
             </div>
 
@@ -185,26 +185,26 @@ export default function DashboardPage() {
                 </div>
               </div>
 
-              {/* Bright Ops Card */}
+              {/* BrightOS Guest AI Card */}
               <div className="bg-white rounded-xl p-6 border-2 border-orange-200 hover:shadow-lg transition-all">
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-center space-x-3">
                     <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
                       <svg className="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-bright-black text-lg">Bright Ops</h3>
+                      <h3 className="font-semibold text-bright-black text-lg">Guest Agent</h3>
                       <span className="inline-block text-xs bg-orange-100 text-orange-700 px-2 py-0.5 rounded-full font-medium">
-                        Setup Required
+                        BrightOS Agent
                       </span>
                     </div>
                   </div>
                 </div>
 
                 <p className="text-gray-600 mb-4">
-                  Guest communications and operations management built on the BrightOS platform. Free with Bright Booking.
+                  AI guest communication across SMS, email, WhatsApp, and voice. Handles routine questions instantly, escalates what matters.
                 </p>
 
                 <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 mb-4">
@@ -213,59 +213,79 @@ export default function DashboardPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <p className="text-sm text-orange-800">
-                      Complete your setup to unlock guest communications, operations management, and AI automation features.
+                      Guest Agent is the core of BrightOS. It handles guest communication across every channel.
                     </p>
                   </div>
                 </div>
 
-                <div className="relative group">
-                  <button
-                    disabled
-                    className="w-full bg-gray-300 text-gray-500 font-semibold px-4 py-2 rounded-lg cursor-not-allowed"
-                  >
-                    Configure Bright Ops
-                  </button>
-                  <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block">
-                    <div className="bg-gray-900 text-white text-sm px-3 py-2 rounded shadow-lg whitespace-nowrap">
-                      Coming Soon
-                    </div>
-                  </div>
-                </div>
+                <button className="w-full bg-bright-orange hover:bg-bright-orange/90 text-white font-semibold px-4 py-2 rounded-lg transition-all">
+                  Configure
+                </button>
               </div>
 
-              {/* Bright Boost Card */}
-              <div className="bg-white rounded-xl p-6 border-2 border-gray-200 opacity-60 hover:shadow-lg transition-all">
+              {/* Bright Check-in Card */}
+              <div className="bg-white rounded-xl p-6 border-2 border-gray-200 hover:shadow-lg transition-all">
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
-                      <svg className="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                    <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                      <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-bright-black text-lg">Bright Boost</h3>
-                      <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-0.5 rounded-full font-medium">
-                        Coming Soon
+                      <h3 className="font-semibold text-bright-black text-lg">Bright Check-in</h3>
+                      <span className="inline-block text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium">
+                        Extension
                       </span>
                     </div>
                   </div>
                 </div>
 
                 <p className="text-gray-600 mb-4">
-                  Intelligent revenue optimization with AI-powered dynamic pricing, demand prediction, and automated upselling.
+                  Digital mobile check-in with Persona ID verification, add-on purchases, and automatic room assignment. Expands what your Guest Agent can handle.
                 </p>
 
-                <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
-                  <p className="text-sm text-gray-600">
-                    Advanced revenue management features will be available soon. Stay tuned for updates.
+                <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+                  <p className="text-sm text-green-800">
+                    Adds check-in capabilities to your Guest Agent. Guests check in from their phone before they arrive.
                   </p>
                 </div>
 
-                <button
-                  disabled
-                  className="w-full bg-gray-200 text-gray-400 font-semibold px-4 py-2 rounded-lg cursor-not-allowed"
-                >
-                  Not Available Yet
+                <button className="w-full bg-bright-orange hover:bg-bright-orange/90 text-white font-semibold px-4 py-2 rounded-lg transition-all">
+                  Configure
+                </button>
+              </div>
+
+              {/* Ops Agent Card */}
+              <div className="bg-white rounded-xl p-6 border-2 border-orange-200 hover:shadow-lg transition-all">
+                <div className="flex items-start justify-between mb-4">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
+                      <svg className="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-bright-black text-lg">Ops Agent</h3>
+                      <span className="inline-block text-xs bg-orange-100 text-orange-700 px-2 py-0.5 rounded-full font-medium">
+                        BrightOS Agent
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <p className="text-gray-600 mb-4">
+                  SMS-based operations for housekeeping and maintenance. Your staff just texts — BrightOS tracks everything automatically.
+                </p>
+
+                <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 mb-4">
+                  <p className="text-sm text-orange-800">
+                    Ops Agent is built into BrightOS. No apps, no logins, no training needed.
+                  </p>
+                </div>
+
+                <button className="w-full bg-bright-orange hover:bg-bright-orange/90 text-white font-semibold px-4 py-2 rounded-lg transition-all">
+                  Configure
                 </button>
               </div>
             </div>

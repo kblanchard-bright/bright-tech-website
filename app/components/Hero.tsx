@@ -9,15 +9,14 @@ export default function Hero({
   title,
   subtitle,
   description,
-  gradient = 'from-bright-black via-gray-900 to-bright-black',
 }: HeroProps) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Gradient Background */}
-      <div className={`absolute inset-0 bg-gradient-to-br ${gradient}`}>
+      {/* Background */}
+      <div className="absolute inset-0 bg-bright-grey">
         {/* Animated gradient orbs for modern feel */}
-        <div className="absolute top-1/4 -left-48 w-96 h-96 bg-bright-orange/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 -right-48 w-96 h-96 bg-bright-orange/10 rounded-full blur-3xl animate-pulse [animation-delay:1000ms]"></div>
+        <div className="absolute top-1/4 -left-48 w-96 h-96 bg-bright-orange/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-1/4 -right-48 w-96 h-96 bg-bright-orange/5 rounded-full blur-3xl animate-pulse [animation-delay:1000ms]"></div>
       </div>
 
       {/* Content */}
@@ -28,12 +27,12 @@ export default function Hero({
           </div>
         )}
 
-        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-semibold text-white mb-8 leading-tight opacity-0 animate-[fadeInUp_1s_ease-out_forwards]">
+        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-semibold text-gray-900 mb-8 leading-tight opacity-0 animate-[fadeInUp_1s_ease-out_forwards]">
           {title}
         </h1>
 
         {description && (
-          <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed opacity-0 animate-[fadeInUp_1s_ease-out_200ms_forwards]">
+          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-12 leading-relaxed opacity-0 animate-[fadeInUp_1s_ease-out_200ms_forwards]">
             {description}
           </p>
         )}
